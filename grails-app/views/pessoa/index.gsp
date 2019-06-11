@@ -26,8 +26,6 @@
 					
 						<g:sortableColumn property="tipoPessoas" title="${message(code: 'pessoa.tipoPessoas.label', default: 'Tipo Pessoas')}" />
 					
-						<g:sortableColumn property="dataNascimento" title="${message(code: 'pessoa.dataNascimento.label', default: 'Data Nascimento')}" />
-					
 						<g:sortableColumn property="login" title="${message(code: 'pessoa.login.label', default: 'Login')}" />
 					
 						<g:sortableColumn property="nome" title="${message(code: 'pessoa.nome.label', default: 'Nome')}" />
@@ -41,8 +39,6 @@
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 					
 						<td><g:link action="show" id="${pessoaInstance.id}">${fieldValue(bean: pessoaInstance, field: "tipoPessoas")}</g:link></td>
-					
-						<td><g:formatDate date="${pessoaInstance.dataNascimento}" /></td>
 					
 						<td>${fieldValue(bean: pessoaInstance, field: "login")}</td>
 					

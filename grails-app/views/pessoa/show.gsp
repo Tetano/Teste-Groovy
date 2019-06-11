@@ -32,15 +32,6 @@
 				</li>
 				</g:if>
 			
-				<g:if test="${pessoaInstance?.dataNascimento}">
-				<li class="fieldcontain">
-					<span id="dataNascimento-label" class="property-label"><g:message code="pessoa.dataNascimento.label" default="Data Nascimento" /></span>
-					
-						<span class="property-value" aria-labelledby="dataNascimento-label"><g:formatDate date="${pessoaInstance?.dataNascimento}" /></span>
-					
-				</li>
-				</g:if>
-			
 				<g:if test="${pessoaInstance?.login}">
 				<li class="fieldcontain">
 					<span id="login-label" class="property-label"><g:message code="pessoa.login.label" default="Login" /></span>
