@@ -11,14 +11,14 @@
 
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: pessoaInstance, field: 'dataNascimento', 'error')} required">
+<%-- <div class="fieldcontain ${hasErrors(bean: pessoaInstance, field: 'dataNascimento', 'error')} required">
 	<label for="dataNascimento">
 		<g:message code="pessoa.dataNascimento.label" default="Data Nascimento" />
 		<span class="required-indicator">*</span>
 	</label>
 	<g:datePicker name="dataNascimento" precision="day"  value="${pessoaInstance?.dataNascimento}"  />
 
-</div>
+</div> --%>
 
 <div class="fieldcontain ${hasErrors(bean: pessoaInstance, field: 'login', 'error')} required">
 	<label for="login">
